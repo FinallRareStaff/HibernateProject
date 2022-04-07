@@ -22,7 +22,7 @@ public class UserDaoHibernateImpl implements UserDao {
                 ");";
         try (Session session = Util.getSessionFactory().openSession()) {
             session.beginTransaction(); // Открытие транзакции
-            session.createSQLQuery(sql).addEntity(User.class).executeUpdate(); // Создание запроса sql
+            session.createSQLQuery(sql).executeUpdate(); // Создание запроса sql
             session.getTransaction().commit(); // Подтвердить изменения в БД
         } catch (Exception exception) {
             exception.printStackTrace();
@@ -31,12 +31,26 @@ public class UserDaoHibernateImpl implements UserDao {
 
     @Override
     public void dropUsersTable() {
-
+        String sql = "DROP TABLE IF EXISTS User";
+        try (Session session = Util.getSessionFactory().openSession()) {
+            session.beginTransaction();
+            session.createSQLQuery(sql).executeUpdate();
+            session.getTransaction().commit();
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        }
     }
 
     @Override
     public void saveUser(String name, String lastName, byte age) {
-
+        try (Session session = Util.getSessionFactory().openSession()) {
+            User user = new User(name, lastName, age);
+            session.beginTransaction();
+            session.save(user);
+            session.getTransaction().commit();
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        }
     }
 
     @Override

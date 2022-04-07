@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3563e00-b6a1-4d73-b01c-4fe0c3bbb732" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +92,7 @@
       <workItem from="1649336745984" duration="3978000" />
       <workItem from="1649340773318" duration="590000" />
       <workItem from="1649341383259" duration="24000" />
-      <workItem from="1649341433537" duration="1382000" />
+      <workItem from="1649341433537" duration="4246000" />
     </task>
     <task id="LOCAL-00001" summary="Maven loads dependencies">
       <created>1649271738457</created>
@@ -128,7 +122,35 @@
       <option name="project" value="LOCAL" />
       <updated>1649342683789</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="GetSessionFactory implemented&#10;CreateSessionFactory implemented">
+      <created>1649342902661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649342902661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="CreateUserTable implemented">
+      <created>1649342976362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649342976362</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update User">
+      <created>1649343018778</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649343018778</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed classes for hibernate">
+      <created>1649343182856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649343182856</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +161,10 @@
     <MESSAGE value="Created dialect" />
     <MESSAGE value="Create hibernate.cfg.xml&#10;Create User links" />
     <MESSAGE value="Update hibernate.cfg.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update hibernate.cfg.xml" />
+    <MESSAGE value="GetSessionFactory implemented&#10;CreateSessionFactory implemented" />
+    <MESSAGE value="CreateUserTable implemented" />
+    <MESSAGE value="Update User" />
+    <MESSAGE value="Changed classes for hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed classes for hibernate" />
   </component>
 </project>
