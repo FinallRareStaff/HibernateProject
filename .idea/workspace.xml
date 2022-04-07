@@ -59,7 +59,7 @@
       <recent name="C:\Users\FinallRareStaff\IdeaProjects\Hibernate\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jm.task.core.jdbc.Main" />
       <module name="Hibernate" />
@@ -73,8 +73,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hibernate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -93,7 +103,7 @@
       <workItem from="1649336745984" duration="3978000" />
       <workItem from="1649340773318" duration="590000" />
       <workItem from="1649341383259" duration="24000" />
-      <workItem from="1649341433537" duration="7633000" />
+      <workItem from="1649341433537" duration="9357000" />
     </task>
     <task id="LOCAL-00001" summary="Maven loads dependencies">
       <created>1649271738457</created>
@@ -165,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649359046294</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="GetAllUsers implemented">
+      <created>1649360144135</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649360144135</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +199,7 @@
     <MESSAGE value="Changed classes for hibernate" />
     <MESSAGE value="SaveUser implemented" />
     <MESSAGE value="RemoveUserById implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="RemoveUserById implemented" />
+    <MESSAGE value="GetAllUsers implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetAllUsers implemented" />
   </component>
 </project>

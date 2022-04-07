@@ -26,6 +26,6 @@ public class Main {
         // Удаление User из таблицы ( по id )
         userService.removeUserById(3);
         // Очистка таблицы User(ов)
-        //userService.cleanUsersTable();
+        userService.cleanUsersTable();
     }
 }
