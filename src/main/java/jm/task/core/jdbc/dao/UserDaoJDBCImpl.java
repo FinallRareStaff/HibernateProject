@@ -8,13 +8,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
-    private final Connection connection = Util.connectDB();
+    //private final Connection connection = Util.connectDB();
     public UserDaoJDBCImpl() {
 
     }
 
     public void createUsersTable() {
-        String sql = "CREATE TABLE IF NOT EXISTS users (" +
+        /*String sql = "CREATE TABLE IF NOT EXISTS users (" +
                 "id int PRIMARY KEY AUTO_INCREMENT,"+
                 "name varchar(20) NOT NULL,"+
                 "lastname varchar(20) NOT NULL,"+
@@ -30,11 +30,11 @@ public class UserDaoJDBCImpl implements UserDao {
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
-        }
+        }*/
     }
 
     public void dropUsersTable() {
-        String sql = "DROP TABLE IF EXISTS users";
+        /*String sql = "DROP TABLE IF EXISTS users";
         try (Statement statement = connection.createStatement()) {
             statement.executeUpdate(sql);
             connection.commit();
@@ -45,12 +45,12 @@ public class UserDaoJDBCImpl implements UserDao {
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
-        }
+        }*/
     }
 
 
     public void saveUser(String name, String lastName, byte age) {
-        String sql = "INSERT INTO users (name, lastname, age) VALUES (?,?,?)";
+        /*String sql = "INSERT INTO users (name, lastname, age) VALUES (?,?,?)";
         try (PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setString(1, name);
             statement.setString(2, lastName);
@@ -65,11 +65,11 @@ public class UserDaoJDBCImpl implements UserDao {
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
-        }
+        }*/
     }
 
     public void removeUserById(long id) {
-        String sql = "SELECT * FROM users";
+        /*String sql = "SELECT * FROM users";
         try (Statement statement = connection.createStatement()) {
             ResultSet resultSet = statement.executeQuery(sql);
             long idRem = 0;
@@ -86,11 +86,11 @@ public class UserDaoJDBCImpl implements UserDao {
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
-        }
+        }*/
     }
 
     public List<User> getAllUsers() {
-        String sql = "SELECT * FROM users";
+        /*String sql = "SELECT * FROM users";
         List <User> result = new ArrayList<>();
         try (Statement statement = connection.createStatement()) {
             ResultSet resultSet = statement.executeQuery(sql);
@@ -117,11 +117,12 @@ public class UserDaoJDBCImpl implements UserDao {
                 ex.printStackTrace();
             }
         }
-        return result;
+        return result;*/
+        return null;
     }
 
     public void cleanUsersTable() {
-        String sql = "TRUNCATE users";
+        /*String sql = "TRUNCATE users";
         try (Statement statement = connection.createStatement()) {
             statement.executeUpdate(sql);
             connection.commit();
@@ -132,6 +133,6 @@ public class UserDaoJDBCImpl implements UserDao {
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
-        }
+        }*/
     }
 }

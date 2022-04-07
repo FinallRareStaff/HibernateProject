@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3563e00-b6a1-4d73-b01c-4fe0c3bbb732" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +59,11 @@
     <property name="project.structure.side.proportion" value="0.3586207" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FinallRareStaff\IdeaProjects\Hibernate\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jm.task.core.jdbc.Main" />
@@ -83,7 +94,11 @@
       <updated>1649268871137</updated>
       <workItem from="1649268872252" duration="840000" />
       <workItem from="1649269779648" duration="1446000" />
-      <workItem from="1649271314568" duration="8923000" />
+      <workItem from="1649271314568" duration="9306000" />
+      <workItem from="1649336745984" duration="3978000" />
+      <workItem from="1649340773318" duration="590000" />
+      <workItem from="1649341383259" duration="24000" />
+      <workItem from="1649341433537" duration="1382000" />
     </task>
     <task id="LOCAL-00001" summary="Maven loads dependencies">
       <created>1649271738457</created>
@@ -99,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649271857162</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create hibernate.cfg.xml&#10;Create User links">
+      <created>1649285747055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649285747055</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update hibernate.cfg.xml">
+      <created>1649342683789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649342683789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven loads dependencies" />
     <MESSAGE value="Created dialect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created dialect" />
+    <MESSAGE value="Create hibernate.cfg.xml&#10;Create User links" />
+    <MESSAGE value="Update hibernate.cfg.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update hibernate.cfg.xml" />
   </component>
 </project>
