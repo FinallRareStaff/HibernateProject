@@ -22,12 +22,10 @@ public class Main {
         userService.saveUser("Matt", "Stone", (byte) 50);
         userService.saveUser("Whoopi", "Goldberg", (byte) 66);
         // Получение всех User из базы и вывод в консоль ( должен быть переопределен toString в классе User)
-        //userService.getAllUsers();
+        userService.getAllUsers();
         // Удаление User из таблицы ( по id )
         userService.removeUserById(3);
         // Очистка таблицы User(ов)
         //userService.cleanUsersTable();
-        // Закрытие соединения
-        //Util.closeConnectDB();
     }
 }

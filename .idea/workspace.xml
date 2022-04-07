@@ -93,7 +93,7 @@
       <workItem from="1649336745984" duration="3978000" />
       <workItem from="1649340773318" duration="590000" />
       <workItem from="1649341383259" duration="24000" />
-      <workItem from="1649341433537" duration="6540000" />
+      <workItem from="1649341433537" duration="7633000" />
     </task>
     <task id="LOCAL-00001" summary="Maven loads dependencies">
       <created>1649271738457</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649353228079</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="RemoveUserById implemented">
+      <created>1649359046294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649359046294</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +181,7 @@
     <MESSAGE value="Update User" />
     <MESSAGE value="Changed classes for hibernate" />
     <MESSAGE value="SaveUser implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="SaveUser implemented" />
+    <MESSAGE value="RemoveUserById implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="RemoveUserById implemented" />
   </component>
 </project>
