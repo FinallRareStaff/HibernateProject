@@ -1,37 +1,26 @@
 package jm.task.core.jdbc.util;
 
+import jm.task.core.jdbc.model.User;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
 import java.sql.*;
 
 public class Util {
     // реализуйте настройку соеденения с БД
-    private static final String URL = "jdbc:mysql://localhost:3306/kata";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "EBA14c86a74gEBA";
-    private static Connection connection = null;
-
-    public static Connection connectDB() {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            Driver driver = new com.mysql.cj.jdbc.Driver();
-            DriverManager.registerDriver(driver);
-            connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            // Для того чтобы получить доступ к управлению транзакциями
-            connection.setAutoCommit(false);
-            System.out.println("Connection success");
-        } catch (SQLException | ClassNotFoundException e) {
-            e.printStackTrace();
-            System.out.println("Connection not success");
-        }
-        return connection;
+    // Метод для проверки наличия фабрики
+    private static SessionFactory sessionFactory;
+    public static SessionFactory getSessionFactory(){
+        return sessionFactory == null ? createSessionFactory() : sessionFactory;
     }
-    public static void closeConnectDB() {
-        try {
-            if (connection != null) {
-                connection.close();
-                System.out.println("Connection close");
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+    // Метод для создание фабрики по производству сессии
+    private static SessionFactory createSessionFactory() {
+        SessionFactory factory = new Configuration()
+                .configure("hibernate.cfg.xml") // Для чтения конфига
+                .addAnnotatedClass(User.class) // Класс со специальными аннотациями
+                .buildSessionFactory(); // Метод для билда фабрики
+        System.out.println("Сессия создана");
+        return factory;
     }
 }
