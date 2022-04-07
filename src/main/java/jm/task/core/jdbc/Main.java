@@ -24,7 +24,7 @@ public class Main {
         // Получение всех User из базы и вывод в консоль ( должен быть переопределен toString в классе User)
         //userService.getAllUsers();
         // Удаление User из таблицы ( по id )
-        //userService.removeUserById(3);
+        userService.removeUserById(3);
         // Очистка таблицы User(ов)
         //userService.cleanUsersTable();
         // Закрытие соединения
