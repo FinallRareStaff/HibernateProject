@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c3563e00-b6a1-4d73-b01c-4fe0c3bbb732" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <recent name="C:\Users\FinallRareStaff\IdeaProjects\Hibernate\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jm.task.core.jdbc.Main" />
       <module name="Hibernate" />
@@ -84,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UserServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +103,8 @@
       <workItem from="1649340773318" duration="590000" />
       <workItem from="1649341383259" duration="24000" />
       <workItem from="1649341433537" duration="9748000" />
-      <workItem from="1649369481771" duration="919000" />
+      <workItem from="1649369481771" duration="1174000" />
+      <workItem from="1649407901501" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="Maven loads dependencies">
       <created>1649271738457</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649362065884</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implementation without hibernate.cfg.xml">
+      <created>1649370453708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649370453709</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +216,7 @@
     <MESSAGE value="RemoveUserById implemented" />
     <MESSAGE value="GetAllUsers implemented" />
     <MESSAGE value="CleanUsersTable implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="CleanUsersTable implemented" />
+    <MESSAGE value="Implementation without hibernate.cfg.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation without hibernate.cfg.xml" />
   </component>
 </project>
